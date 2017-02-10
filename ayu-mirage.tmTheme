@@ -24,7 +24,7 @@
 				<key>findHighlight</key>
 				<string>#D4BFFF</string>
 				<key>findHighlightForeground</key>
-				<string>#212733</string>
+				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#D9D7CE</string>
 				<key>guide</key>
@@ -36,7 +36,7 @@
 				<key>inactiveBackground</key>
 				<string>#212733</string>
 				<key>inactiveSelection</key>
-				<string>#343F4C88</string>
+				<string>#2D3640</string>
 				<key>invisibles</key>
 				<string>#FF0000</string>
 				<key>lineHighlight</key>
@@ -75,9 +75,9 @@ a {
 }
 </string>
 				<key>selection</key>
-				<string>#343F4C</string>
+				<string>#343F4D</string>
 				<key>selectionBorder</key>
-				<string>#343F4C</string>
+				<string>#D9D7CE35</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
@@ -257,6 +257,99 @@ a {
 				<string>#5CCFE690</string>
 			</dict>
 		</dict>
+		<!-- Velocity edit -->
+		<dict>
+			<key>name</key>
+			<string>Velocity if else etc</string>             
+			<key>scope</key>
+			<string>keyword.control.directive.velocity, keyword.control.velocity, keyword.velocity, punctuation.definition.arguments.begin.velocity, punctuation.definition.arguments.end.velocity, source.velocity.embedded</string>
+			<key>settings</key> 
+			<dict>                 
+				<key>foreground</key>
+				<string>#ff69b4</string>
+				<key>fontStyle</key>
+				<string>bold</string>			
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity Set</string>             
+			<key>scope</key>
+			<string>storage.type.variable.velocity, punctuation.definition.parameters.begin.velocity, punctuation.definition.parameters.end.velocity</string>
+			<key>settings</key> 
+			<dict>                 
+				<key>foreground</key>
+				<string>#ff69b4</string>
+				<key>fontStyle</key>
+				<string>italic</string>			
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity variables</string>             
+			<key>scope</key>
+			<string>variable.other.readwrite.velocity, punctuation.definition.variable.velocity, variable.parameter.velocity</string>
+			<key>settings</key> 
+			<dict>                 
+				<key>foreground</key>
+				<string>#71a84f</string>
+				<key>fontStyle</key>
+				<string>normal</string>	
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity functions</string>             
+			<key>scope</key>
+			<string>entity.name.function.velocity, meta.function-call.method.with-arguments.velocity, punctuation.definition.method.arguments.begin.velocity, punctuation.definition.method.arguments.end.velocity</string>
+			<key>settings</key> 
+			<dict>                 
+				<key>foreground</key>
+				<string>#fbff3f</string>
+				<key>fontStyle</key>
+				<string>italic</string>	
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity java operators</string>             
+			<key>scope</key>
+			<string>keyword.operator.logical.java, keyword.operator.comparison.java, keyword.operator.assignment.java, keyword.operator.increment-decrement.java, keyword.operator.arithmetic.java, keyword.operator.logical.java, constant.character.escape.velocity, constant.character.escape.backslash.velocity</string>
+			<key>settings</key> 
+			<dict>                 
+				<key>foreground</key>
+				<string>#e88137</string>
+				<key>fontStyle</key>
+				<string>normal</string>	
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity array</string>             
+			<key>scope</key>
+			<string>meta.structure.array.velocity</string>
+			<key>settings</key> 
+			<dict>
+				<key>foreground</key>
+				<string>#71a84f</string>                 
+				<key>fontStyle</key>
+				<string>bold, italic</string>	
+			</dict> 			
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Velocity array</string>             
+			<key>scope</key>
+			<string>constant.numeric.velocity, constant.language.java</string>
+			<key>settings</key> 
+			<dict>
+				<key>foreground</key>
+				<string>#5677aa</string>                 
+				<key>fontStyle</key>
+				<string>bold</string>					
+			</dict> 			
+		</dict>
+		<!-- end Velocity edit -->
 		<dict>
 			<key>name</key>
 			<string>Attributes</string>
